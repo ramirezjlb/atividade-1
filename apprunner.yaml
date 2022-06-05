@@ -1,8 +1,0 @@
-version: 1.0
-runtime: corretto11
-build:
-  commands:    
-    build:
-      - mvn clean package
-run:                              
-  command: java -jar target/quarkus-app/quarkus-run.jar .
